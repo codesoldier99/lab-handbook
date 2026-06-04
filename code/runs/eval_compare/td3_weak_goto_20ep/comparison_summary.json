@@ -1,0 +1,11 @@
+{
+  "run_dir": "runs/eval_compare/td3_weak_goto_20ep",
+  "episodes": 20,
+  "algorithms": [
+    "FixedGain",
+    "TD3"
+  ],
+  "step_log_csv": "runs/eval_compare/td3_weak_goto_20ep/comparison_step_log.csv",
+  "episode_summary_csv": "runs/eval_compare/td3_weak_goto_20ep/comparison_episode_summary.csv",
+  "metric_summary_csv": "runs/eval_compare/td3_weak_goto_20ep/comparison_metric_summary.csv"
+}

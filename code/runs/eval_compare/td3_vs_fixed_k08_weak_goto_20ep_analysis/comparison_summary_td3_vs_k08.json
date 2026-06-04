@@ -1,0 +1,7 @@
+{
+  "fixed_source": "runs/eval_compare/fixed_gain_k08_weak_goto_20ep",
+  "td3_source": "runs/eval_compare/td3_weak_goto_20ep",
+  "output_dir": "runs/eval_compare/td3_vs_fixed_k08_weak_goto_20ep_analysis",
+  "same_scenarios": true,
+  "best_td3_episode_by_mean_abs_dr": 20
+}

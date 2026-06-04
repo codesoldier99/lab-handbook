@@ -1,0 +1,11 @@
+{
+  "algorithm": "DDPG",
+  "run_dir": "runs/eval_compare/ddpg_weak_goto_20ep",
+  "checkpoint": "runs/ddpg_online/ddpg_spiral_20260515_013409/ddpg_actor_critic_best.pt",
+  "checkpoint_episode": 200,
+  "checkpoint_step": 291171,
+  "episodes": 20,
+  "step_log_csv": "runs/eval_compare/ddpg_weak_goto_20ep/comparison_step_log.csv",
+  "episode_summary_csv": "runs/eval_compare/ddpg_weak_goto_20ep/comparison_episode_summary.csv",
+  "metric_summary_csv": "runs/eval_compare/ddpg_weak_goto_20ep/comparison_metric_summary.csv"
+}

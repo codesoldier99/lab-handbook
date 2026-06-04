@@ -1,0 +1,10 @@
+{
+  "run_dir": "runs/eval_compare/fixed_gain_k08_heading_alt_20ep",
+  "episodes": 1,
+  "algorithms": [
+    "FixedGain"
+  ],
+  "step_log_csv": "runs/eval_compare/fixed_gain_k08_heading_alt_20ep/comparison_step_log.csv",
+  "episode_summary_csv": "runs/eval_compare/fixed_gain_k08_heading_alt_20ep/comparison_episode_summary.csv",
+  "metric_summary_csv": "runs/eval_compare/fixed_gain_k08_heading_alt_20ep/comparison_metric_summary.csv"
+}

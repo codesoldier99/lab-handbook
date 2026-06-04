@@ -1,0 +1,19 @@
+{
+  "description": "Wind disturbance evaluation for FixedGain_K0.8, TD3, and DDPG.",
+  "td3_checkpoint": "runs/td3_online/td3_spiral_20260513_161705/td3_actor_critic_best.pt",
+  "ddpg_checkpoint": "runs/ddpg_online/ddpg_spiral_20260515_013409/ddpg_actor_critic_best.pt",
+  "episodes": 20,
+  "seed": 20260515,
+  "scenarios_csv": "runs/eval_compare/fixed_gain_k08_weak_goto_20ep/test_scenarios.csv",
+  "gazebo_cmd": "gz sim -v4 -r /home/weicheng/gz_ws/src/ardupilot_gazebo/worlds/zephyr_runway_wind.sdf --render-engine ogre",
+  "gazebo_world_name": "zephyr_runway",
+  "gazebo_model_name": "zephyr_with_ardupilot",
+  "wind_speed_mps": 0.0,
+  "wind_from_deg": 180.0,
+  "command_mode": "weak_goto",
+  "goto_every_steps": 5,
+  "baseline_k_heading": 0.8,
+  "baseline_k_altitude": 0.8,
+  "metric_start_progress": 0.1,
+  "policy_noise": 0.0
+}

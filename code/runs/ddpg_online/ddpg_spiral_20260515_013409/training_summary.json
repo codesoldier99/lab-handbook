@@ -1,0 +1,13 @@
+{
+  "algorithm": "DDPG",
+  "total_steps": 291171,
+  "episodes": 200,
+  "configured_max_episodes": 200,
+  "max_episodes_reached": true,
+  "early_stop_triggered": false,
+  "early_stop_reason": "",
+  "best_model_episode": 200,
+  "best_model_score": -1.4456518108928755,
+  "best_model_path": "runs/ddpg_online/ddpg_spiral_20260515_013409/ddpg_actor_critic_best.pt",
+  "final_model_path": "runs/ddpg_online/ddpg_spiral_20260515_013409/ddpg_actor_critic_final.pt"
+}

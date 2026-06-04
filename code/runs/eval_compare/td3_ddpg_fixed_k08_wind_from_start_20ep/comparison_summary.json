@@ -1,0 +1,12 @@
+{
+  "run_dir": "runs/eval_compare/td3_ddpg_fixed_k08_wind_from_start_20ep",
+  "step_log_csv": "runs/eval_compare/td3_ddpg_fixed_k08_wind_from_start_20ep/comparison_step_log.csv",
+  "episode_summary_csv": "runs/eval_compare/td3_ddpg_fixed_k08_wind_from_start_20ep/comparison_episode_summary.csv",
+  "metric_summary_csv": "runs/eval_compare/td3_ddpg_fixed_k08_wind_from_start_20ep/comparison_metric_summary.csv",
+  "algorithms": [
+    "FixedGain_K0.8",
+    "TD3",
+    "DDPG"
+  ],
+  "episodes": 20
+}

@@ -1,0 +1,15 @@
+{
+  "source_step_logs": [
+    "runs/eval_compare/td3_vs_fixed_k08_weak_goto_20ep_analysis/comparison_step_log_td3_vs_k08.csv",
+    "runs/eval_compare/ddpg_weak_goto_20ep/comparison_step_log.csv"
+  ],
+  "scenario_source": "runs/eval_compare/ddpg_weak_goto_20ep/test_scenarios.csv",
+  "episodes": 20,
+  "algorithms": [
+    "DDPG",
+    "FixedGain_K0.8",
+    "TD3"
+  ],
+  "metric_start_progress": 0.0,
+  "notes": "FixedGain_K0.8, TD3, and DDPG are evaluated on identical 20 weak_goto scenarios without exploration noise."
+}
